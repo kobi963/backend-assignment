@@ -1,9 +1,12 @@
-const axios = require('axios').default;
+const express = require("express");
 
-const sayHey = (name) => {
-    return `Hey ${name}`
-}
+const router = require("./movieContorller");
+const app = express();
+const port = 3500;
 
-module.exports = {
-    sayHey
-}
+app.use(express.json());
+
+app.use(router);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
+});
