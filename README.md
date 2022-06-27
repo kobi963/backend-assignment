@@ -1,10 +1,12 @@
-# Vi Coding Assignment 
+# Vi Coding Assignment
 
-__Writing what this project does...__
+**Writing what this project does...**
 
 ## Tools
-- Jest for testing
-- __List additional tools you used...__
+
+- Jest for testing - not implemented - no time left for this.
+- node express for the backend
+- axios for request API
 
 ## Getting Started
 
@@ -16,14 +18,8 @@ Before starting to code, don't forget to install all dependencies.
 yarn
 ```
 
-### Running tests
-
-Run all tests once:
+### run the service
 
 ```shell
-npm test
+yarn start
 ```
-
-### How to use
-
-__Describe how to use the project: starting the server, using endpoints, etc.__
